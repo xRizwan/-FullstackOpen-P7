@@ -11,11 +11,8 @@ const AnecdoteList = () => {
 
   const vote = (id) => {
     dispatch(increaseVoteOf(id));
-    dispatch(setNotification(`You voted for anecdote ${id}`));
-
-    setTimeout(() => {
-      dispatch(setNotification(``));
-    }, [5000])
+    
+    dispatch(setNotification(`You voted for "${id}"`, 1000))
   }
 
   React.useEffect(() => {console.log(filter)}, [filter])

@@ -1,0 +1,140 @@
+{
+  "anecdotes": [
+    {
+      "content": "If it hurts, do it more often",
+      "id": "47145",
+      "votes": 13,
+      "data": {
+        "content": "If it hurts, do it more often",
+        "id": "47145",
+        "votes": null,
+        "data": {
+          "content": "If it hurts, do it more often",
+          "id": "47145",
+          "votes": 0
+        },
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "cache-control": "no-cache",
+          "content-length": "79",
+          "content-type": "application/json; charset=utf-8",
+          "expires": "-1",
+          "pragma": "no-cache"
+        },
+        "config": {
+          "url": "http://localhost:3001/anecdotes/47145",
+          "method": "get",
+          "headers": {
+            "Accept": "application/json, text/plain, */*"
+          },
+          "transformRequest": [
+            null
+          ],
+          "transformResponse": [
+            null
+          ],
+          "timeout": 0,
+          "xsrfCookieName": "XSRF-TOKEN",
+          "xsrfHeaderName": "X-XSRF-TOKEN",
+          "maxContentLength": -1,
+          "maxBodyLength": -1
+        },
+        "request": {}
+      },
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "cache-control": "no-cache",
+        "content-length": "820",
+        "content-type": "application/json; charset=utf-8",
+        "expires": "-1",
+        "pragma": "no-cache"
+      },
+      "config": {
+        "url": "http://localhost:3001/anecdotes/47145",
+        "method": "get",
+        "headers": {
+          "Accept": "application/json, text/plain, */*"
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      },
+      "request": {}
+    },
+    {
+      "content": "Adding manpower to a late software project makes it later!",
+      "id": "21149",
+      "votes": 10
+    },
+    {
+      "content": "The first 90 percent of the code accounts for the first 90 percent of the development time...The remaining 10 percent of the code accounts for the other 90 percent of the development time.",
+      "id": "69581",
+      "votes": 1
+    },
+    {
+      "content": "Any fool can write code that a computer can understand. Good programmers write code that humans can understand.",
+      "id": "36975",
+      "votes": 0
+    },
+    {
+      "content": "Premature optimization is the root of all evil.",
+      "id": "25170",
+      "votes": 0
+    },
+    {
+      "content": "Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.",
+      "id": "98312",
+      "votes": 0
+    },
+    {
+      "content": "test",
+      "votes": 0,
+      "id": "o6XExI8"
+    },
+    {
+      "content": "test",
+      "votes": 0,
+      "id": "Dwc0AgS"
+    },
+    {
+      "content": "testsets",
+      "votes": 0,
+      "id": "XqE-DLP"
+    },
+    {
+      "content": "test",
+      "votes": 0,
+      "id": "DngAmKP"
+    },
+    {
+      "content": "disgusting",
+      "votes": 0,
+      "id": "RZgRtV1"
+    },
+    {
+      "content": "something",
+      "votes": 0,
+      "id": "e80wCmX"
+    },
+    {
+      "content": "another",
+      "votes": 0,
+      "id": "s03Sr9I"
+    },
+    {
+      "content": "anoe",
+      "votes": 0,
+      "id": "KV0m7YI"
+    }
+  ]
+}
