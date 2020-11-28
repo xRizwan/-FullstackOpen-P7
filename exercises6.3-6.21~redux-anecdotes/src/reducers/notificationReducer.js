@@ -1,3 +1,5 @@
+import { setTimeoutID } from './timeoutReducer';
+
 const notificationReducer = (state="DEFAULT", action) => {
     switch (action.type){
         case "SET_MESSAGE":
@@ -13,12 +15,13 @@ export const setNotification = (data, time) => {
             type: "SET_MESSAGE",
             data,
         })
-        setTimeout(async () => {
+        let id = window.setTimeout(async () => {
             return dispatch({
                 type: "SET_MESSAGE",
                 data: "",
             })
         }, [time])
+        dispatch(setTimeoutID(id));
     }
 }
 
